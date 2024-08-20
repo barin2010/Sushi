@@ -1,0 +1,81 @@
+@import "./reset.css";
+
+/* 400 */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.woff") format("woff"),
+    url("./fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* 500 */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Medium.woff") format("woff"),
+    url("./fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* 600 */
+/* 500 */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Medium.woff") format("woff"),
+    url("./fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* 700 */
+@font-face {
+  font-family: "BebasNeue";
+  src: url("./fonts/BebasNeueBold.woff") format("woff"),
+    url("./fonts/BebasNeueBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* 400 */
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff") format("woff"),
+    url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* 400 */
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  /* font */
+
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Bebas Neue", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Poppins", sans-serif;
+
+  /* color */
+
+  --161616: #161616;
+  --eb6101: #eb6101;
+  --fe8a49: #fe8a49;
+  --eceeec: #eceeec;
+  --f8f8f8: #f8f8f8;
+  --ffffff: #fff;
+  --a6a6a6: #a6a6a6;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--161616);
+  font-weight: 500;
+  background-color: var(--ffffff);
+}
