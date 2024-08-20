@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  cursor: pointer;
+  width: 21px;
+  height: 16px;
+}
+.brandMob {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.logoImgMob {
+  width: 28px;
+}
+.brandTitle {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.bagImg {
+  width: 21px;
+}

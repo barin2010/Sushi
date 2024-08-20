@@ -79,3 +79,8 @@ body {
   font-weight: 500;
   background-color: var(--ffffff);
 }
+
+.container {
+  min-width: 320px;
+  padding: 0 16px;
+}
